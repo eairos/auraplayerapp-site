@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aura Player — The Smart Media Workstation</title>
+  <meta name="description" content="Aura Player is a smart, ad-free media player with auto-lyrics, real-time translation, and FFmpeg transcoding. Free forever." />
+  <link rel="icon" type="image/png" href="logo.png" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #0A0A0A;
+      color: #FFFFFF;
+      line-height: 1.6;
+    }
+    .container { max-width: 900px; margin: 0 auto; padding: 60px 24px; }
+
+    /* ── YOUR LOGO STYLES ── */
+    .logo {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 48px;
+    }
+    .logo-image {
+      width: 220px;      /* Adjust this if you want it bigger/smaller */
+      height: auto;
+      display: block;
+    }
+
+    h2 {
+      font-size: 40px; font-weight: 800; text-align: center;
+      margin-bottom: 16px; letter-spacing: -0.5px;
+    }
+    .tagline {
+      text-align: center; color: #8E8E93; font-size: 18px;
+      margin-bottom: 48px; max-width: 600px; margin-left: auto; margin-right: auto;
+    }
+    .features {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px; margin-bottom: 48px;
+    }
+    .feature {
+      background: #121212; border: 1px solid #222;
+      border-radius: 16px; padding: 24px;
+    }
+    .feature h3 { color: #D4AF37; font-size: 16px; margin-bottom: 8px; }
+    .feature p { color: #8E8E93; font-size: 14px; }
+    .cta {
+      display: inline-block; background: #D4AF37; color: #0A0A0A;
+      padding: 16px 40px; border-radius: 12px; font-weight: 800;
+      text-decoration: none; font-size: 16px; letter-spacing: 0.5px;
+      transition: transform 0.2s;
+    }
+    .cta:hover { transform: translateY(-2px); }
+    .center { text-align: center; }
+    footer {
+      margin-top: 80px; padding-top: 32px;
+      border-top: 1px solid #222; text-align: center;
+      color: #8E8E93; font-size: 13px;
+    }
+    footer a { color: #D4AF37; text-decoration: none; margin: 0 12px; }
+    footer a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <!-- YOUR EXACT LOGO -->
+    <div class="logo">
+      <img src="logo.png" alt="Aura Player Logo" class="logo-image" />
+    </div>
+
+    <h2>The Smart Media Workstation</h2>
+    <p class="tagline">
+      A completely free, ad-free media player with auto-generated lyrics,
+      real-time translation, and studio-grade FFmpeg transcoding.
+    </p>
+
+    <div class="features">
+      <div class="feature">
+        <h3>🎧 Smart Playback</h3>
+        <p>Plays any local or streaming media with gesture seeking, speed control, and smart resume.</p>
+      </div>
+      <div class="feature">
+        <h3>📝 Auto-Lyrics</h3>
+        <p>Fetches synchronized lyrics automatically and translates them in real time.</p>
+      </div>
+      <div class="feature">
+        <h3>🎬 FFmpeg Converter</h3>
+        <p>Extract high-quality audio from any video file directly on your device.</p>
+      </div>
+      <div class="feature">
+        <h3>🔒 Privacy First</h3>
+        <p>No tracking. No ads. No data collection. Your media stays yours.</p>
+      </div>
+    </div>
+
+    <div class="center">
+      <a href="#download" class="cta">Download for Android & iOS</a>
+      <p style="color:#8E8E93; font-size:12px; margin-top:12px;">
+        Free forever · No account required
+      </p>
+    </div>
+
+    <footer>
+      <p style="margin-bottom: 12px;">
+        <a href="/privacy.html">Privacy Policy</a>
+        <a href="/terms.html">Terms of Service</a>
+        <a href="mailto:support@auraplayer.app">Contact</a>
+      </p>
+      <p>© 2026 Aura Player. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
